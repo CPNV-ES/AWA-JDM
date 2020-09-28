@@ -3,6 +3,11 @@
     background-size: cover;
 }
 
+.viewcars {
+    background: url("../img/JDM-Dragon.svg")no-repeat center center;
+    background-size: cover;
+}
+
 .navbar {
     background-color: black;
 }
