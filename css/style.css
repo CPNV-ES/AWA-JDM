@@ -1,3 +1,27 @@
+
+@font-face {
+    font-family: Japanese2020;
+    src: url(../fonts/JAPANESE_2020.otf);
+}
+
+@font-face {
+    font-family: OldJapanese;
+    src: url(../fonts/Old\ Japanese.otf);
+}
+
+
+/* NavBar */
+.navTitle{
+    font-family: OldJapanese;
+    color:#fe0000 !important;
+    font-size: xx-large;
+}
+
+.nav-link{
+    font-family: Japanese2020;
+    color:#fe0000 !important;
+}
+
 .view {
     background: url("../img/JDM-Dragon-2.png")no-repeat center center;
     background-size: cover;
@@ -12,7 +36,7 @@
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #4285F4;
+        background-color: black;
     }
 }
 
