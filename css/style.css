@@ -27,12 +27,6 @@
     background: url("../img/JDM-Dragon-2.png")no-repeat center center;
     background-size: cover;
 }
-
-.viewcars {
-    background: url("../img/JDM-Dragon.svg")no-repeat center center;
-    background-size: cover;
-}
-
 .navbar {
     background-color: black;
 }
@@ -52,4 +46,19 @@ body,
 header,
 .view {
   height: 100%;
+}
+
+/*Cars*/
+.viewCars {
+    background: url("../img/SVG/CarsDragon.svg") no-repeat center;
+    background-size: cover contain;
+    background-color: #383838;
+}
+
+.titleCars{
+    color: white;
+}
+
+.mainTitle{
+    vertical-align: text-top;
 }
