@@ -10,7 +10,6 @@
 }
 
 @font-face {
-<<<<<<< HEAD
     font-family: Brushido;
     src: url(../fonts/Brushido.ttf);
 }
@@ -19,13 +18,13 @@
     font-family: TextFont;
     src: url(../fonts/2MASS\ J1808-Normal\ \(personal\ use\).otf);
 }
-=======
+
+@font-face{
     font-family: JerseySharp;
     src: url(../fonts/Jersey\ Sharp.ttf);
 }
 
 
->>>>>>> fe00d004642a95de74a3cbd7def771ca387779a7
 
 /* NavBar */
 .navTitle{
