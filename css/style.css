@@ -9,6 +9,12 @@
     src: url(../fonts/Old\ Japanese.otf);
 }
 
+@font-face {
+    font-family: JerseySharp;
+    src: url(../fonts/Jersey\ Sharp.ttf);
+}
+
+
 
 /* NavBar */
 .navTitle{
@@ -48,16 +54,50 @@ header,
 }
 
 /*Cars*/
-.viewCars {
+body {
+    background-color: #383838;
     background: url("../img/SVG/CarsDragon.svg") no-repeat center;
-    background-size: cover contain;
+    background-size: 300px;
     background-color: #383838;
 }
 
-.titleCars{
+.mainTitle{
+    font-family: Japanese2020;
     color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;    
+    text-align: center;
 }
 
 .mainTitle{
     vertical-align: text-top;
+}
+
+.card{
+    background-color: #040404;
+    height: 400px;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.cardtitle{
+    font-family: JerseySharp;
+    padding: auto;
+    font-size: 30px;
+    height: 84px;
+    line-height: 84px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.cardimg{
+    object-fit: cover;
+    height: 325px;
+    width: 100%;
+}
+
+.row-bottom{
+    padding-bottom: 10px;
 }
