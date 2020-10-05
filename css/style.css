@@ -9,6 +9,15 @@
     src: url(../fonts/Old\ Japanese.otf);
 }
 
+@font-face {
+    font-family: Brushido;
+    src: url(../fonts/Brushido.ttf);
+}
+
+@font-face {
+    font-family: TextFont;
+    src: url(../fonts/2MASS\ J1808-Normal\ \(personal\ use\).otf);
+}
 
 /* NavBar */
 .navTitle{
@@ -23,10 +32,6 @@
     font-size: large;
 }
 
-.view {
-    background: url("../img/JDM-Dragon-2.png")no-repeat center center;
-    background-size: cover;
-}
 .navbar {
     background-color: black;
 }
@@ -47,6 +52,38 @@ header,
 .view {
   height: 100%;
 }
+
+/* Views */
+.home {
+    background: url("../img/AWA-JDM-Wallpaper.png")no-repeat center center;
+    background-size: cover ;
+
+}
+
+.home-car1 {
+    background: url("../img/Cars/Top-20-JDM-Cars-Of-All-Time-AP-Garage-1970-Skyline-2000-GT-X.jpg")no-repeat center center;
+    background-size: cover contain;
+}
+
+.car-content{
+    z-index: 1;
+    height: 65%;
+    margin-left: 5%;
+}
+
+.car-content, p{
+    font-family: TextFont;
+    color: white;
+}
+
+.car-title{
+    font-family: Brushido;
+}
+
+.home-title {
+    font-family: OldJapanese;   
+}
+
 
 /*Cars*/
 .viewCars {
