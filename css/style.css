@@ -1,4 +1,4 @@
-
+/* Fonts */
 @font-face {
     font-family: Japanese2020;
     src: url(../fonts/JAPANESE_2020.otf);
@@ -55,7 +55,6 @@
 
 html,
 body,
-header,
 .view {
   height: 100%;
 }
@@ -93,7 +92,7 @@ header,
 
 
 /*Cars*/
-body {
+.body-car {
     background-color: #383838;
     background: url("../img/SVG/CarsDragon.svg") no-repeat center;
     background-size: 300px;
