@@ -77,7 +77,7 @@ body,
     margin-left: 5%;
 }
 
-.car-content, p{
+.car-content p{
     font-family: TextFont;
     color: white;
 }
@@ -118,7 +118,7 @@ body,
     margin-bottom: 30px;
 }
 
-.cardtitle{
+.card-title{
     font-family: JerseySharp;
     padding: auto;
     font-size: 30px;
