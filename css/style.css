@@ -60,12 +60,18 @@ body,
 }
 
 /* Views */
-.home {
-    background: url("../img/AWA-JDM-Wallpaper.png")no-repeat center center;
-    background-size: cover;
+.parallaxParent {
     height: 100vh;
-
+    overflow: hidden;
 }
+.parallaxParent > * {
+    height: 203%;
+    position: relative;
+    top: -127%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
 
 .home-title {
     font-family: OldJapanese;   
@@ -81,34 +87,16 @@ body,
 }
 
 
-.home-car1 {
-    background: url("../img/Cars/Hakosuka-front.jpg")no-repeat center center;
-    background-position-y: bottom;
-    height: 100vh;
-}
-
-.home-car2 {
-    background: url("../img/Cars/red-supra-back.jpg")no-repeat center center;
-    background-position-y: center;
-    height: 100vh;
-}
-
-.home-car3 {
-    background: url("../img/Cars/blue-r34-front.jpg")no-repeat center center;
-    background-position-y: center;
-    height: 100vh;
-}
-
 .car1-content{
     z-index: 1;
-    height: 65%;
+    height: 20%;
     margin-left: 5%;
 }
 
 
 .car2-content{
     z-index: 1;
-    height: 65%;
+    height: 30%;
     margin-left: 5%;
 }
 .car2-content p, .car2-content .car-title{
@@ -117,7 +105,7 @@ body,
 
 .car3-content{
     z-index: 1;
-    height: 85%;
+    height: 20%;
     margin-left: 5%;
 }
 .car3-content p, .car3-content .car-title{
