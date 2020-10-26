@@ -62,19 +62,17 @@ body,
 /* Views */
 .home {
     background: url("../img/AWA-JDM-Wallpaper.png")no-repeat center center;
-    background-size: cover ;
+    background-size: cover;
+    height: 100vh;
 
 }
 
-.home-car1 {
-    background: url("../img/Cars/Top-20-JDM-Cars-Of-All-Time-AP-Garage-1970-Skyline-2000-GT-X.jpg")no-repeat center center;
-    background-size: cover contain;
+.home-title {
+    font-family: OldJapanese;   
 }
 
-.car-content{
-    z-index: 1;
-    height: 65%;
-    margin-left: 5%;
+.car-title{
+    font-family: Brushido;
 }
 
 .car-content p{
@@ -82,13 +80,50 @@ body,
     color: white;
 }
 
-.car-title{
-    font-family: Brushido;
+
+.home-car1 {
+    background: url("../img/Cars/Hakosuka-front.jpg")no-repeat center center;
+    background-position-y: bottom;
+    height: 100vh;
 }
 
-.home-title {
-    font-family: OldJapanese;   
+.home-car2 {
+    background: url("../img/Cars/red-supra-back.jpg")no-repeat center center;
+    background-position-y: center;
+    height: 100vh;
 }
+
+.home-car3 {
+    background: url("../img/Cars/blue-r34-front.jpg")no-repeat center center;
+    background-position-y: center;
+    height: 100vh;
+}
+
+.car1-content{
+    z-index: 1;
+    height: 65%;
+    margin-left: 5%;
+}
+
+
+.car2-content{
+    z-index: 1;
+    height: 65%;
+    margin-left: 5%;
+}
+.car2-content p, .car2-content .car-title{
+    color: black !important;
+}
+
+.car3-content{
+    z-index: 1;
+    height: 85%;
+    margin-left: 5%;
+}
+.car3-content p, .car3-content .car-title{
+    color: black !important;
+}
+
 
 
 /*Cars*/
