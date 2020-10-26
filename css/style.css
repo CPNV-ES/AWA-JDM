@@ -139,3 +139,74 @@ body,
 .row-bottom{
     padding-bottom: 10px;
 }
+
+/*CarPage*/
+
+.carBackground{
+    background-color: #383838;
+}
+
+.carPageTitle{
+    font-family: Japanese2020;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 80px;    
+    text-align: center;
+}
+
+.carPic{
+    margin-top: 125px;
+    width: 95%;
+}
+
+.information-col{
+    background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(56,56,56,1) 46%, rgba(0,0,0,1) 100%);
+}
+
+.informations{
+    margin-top:100px;
+    font-family: TextFont;
+    color: white;
+}
+
+.car-top{
+    margin-bottom: 50px;
+}
+
+thead{
+    border-top: 1px #383838 solid !important;
+    border-bottom: 1px #383838 solid !important;
+}
+
+th{
+    background-color:black;
+    color: white;
+    font-family: JerseySharp;
+    width:30%;
+    border-width: 0px !important;
+}
+
+td{
+    font-family: TextFont;
+    background-color:#4D4C4C;
+    border-bottom:1px #383838 solid !important;
+    color: white;
+}
+
+.table-title{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .carPic{
+        margin-top: 125px;
+        width: 100%;
+    }
+    .carPageTitle{
+        margin-top: 50px;
+        margin-bottom: 40px;    
+    }
+    .informations{
+        margin-top:50px;
+    }
+}
