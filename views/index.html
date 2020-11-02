@@ -85,7 +85,7 @@
           </div>
 
           <!-- Car 3 -->
-          <div id="carr" class="parallaxParent">
+          <div id="car3" class="parallaxParent">
             <div style="background-image: url(../img/Cars/blue-r34-front.jpg);">
               <div class="mask flex-center">
                 <div class="container-fluid content">
@@ -94,6 +94,24 @@
                       <div class="col-6">
                         <h1 class="car-title" style="color:white;">Nissan GTR R34</h1>
                         <p>Vroum Vroum vouature</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car 4 -->
+          <div id="car4" class="parallaxParent">
+            <div style="background-image: url(../img/Cars/Top-20-JDM-Cars-Of-All-Time-Car-Shop-Glow-RX-7-rear-bumper.jpg);">
+              <div class="mask flex-center">
+                <div class="container-fluid content">
+                  <div class="car-content car4-content">
+                    <div class="row justify-content">
+                      <div class="col-8">
+                        <h1 class="car-title" style="color:white;">Mazda RX-7 FD</h1>
+                        <p>Brrrrrpapapapapa</p>
                       </div>
                     </div>
                   </div>
@@ -129,25 +147,26 @@
             //Main wallpaper
             new ScrollMagic.Scene({triggerElement: "#home"})
               .setTween("#home > div", {y: "80%", ease: Linear.easeNone})
-              .addIndicators()
               .addTo(controller);
             
             //Car 1
             new ScrollMagic.Scene({triggerElement: "#car1"})
               .setTween("#car1 > div", {y: "80%", ease: Linear.easeNone})
-              .addIndicators()
               .addTo(controller);
 
             //Car 2
             new ScrollMagic.Scene({triggerElement: "#car2"})
               .setTween("#car2 > div", {y: "80%", ease: Linear.easeNone})
-              .addIndicators()
               .addTo(controller);
 
             //Car 3
-            new ScrollMagic.Scene({triggerElement: "#carr"})
-              .setTween("#carr > div", {y: "80%", ease: Linear.easeNone})
-              .addIndicators({name:'car3'})
+            new ScrollMagic.Scene({triggerElement: "#car3"})
+              .setTween("#car3 > div", {y: "80%", ease: Linear.easeNone})
+              .addTo(controller);
+
+            //Car 4
+            new ScrollMagic.Scene({triggerElement: "#car4"})
+              .setTween("#car4 > div", {y: "80%", ease: Linear.easeNone})
               .addTo(controller);
 
           </script>

@@ -112,6 +112,15 @@ body,
     color: black !important;
 }
 
+.car4-content{
+    z-index: 1;
+    height: 30%;
+    margin-left: 73%;
+}
+.car4-content p, .car4-content .car-title{
+    color: black !important;
+}
+
 
 
 /*Cars*/
