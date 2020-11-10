@@ -191,9 +191,7 @@ body,
     width: 95%;
 }
 
-.information-col{
-    background: linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(56,56,56,1) 46%, rgba(0,0,0,1) 100%);
-}
+
 
 .informations{
     margin-top:100px;
@@ -227,6 +225,27 @@ td{
 
 .table-title{
     font-size: 25px;
+}
+
+.abs-svg{
+    position:absolute;
+    top: 10;
+}
+
+.light-svg{
+    position:absolute;
+    top: 10;
+}
+
+.compteur-image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    z-index: -1;
+}
+
+#aiguille{
+    fill:red;
 }
 
 @media only screen and (max-width: 1000px) {
