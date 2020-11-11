@@ -1,4 +1,6 @@
+//Animation du gradient
 gsap.to(".information-col", {background: "linear-gradient(180deg, rgba(56,56,56,1) 0%, rgba(56,56,56,1) 46%, rgba(0,0,0,1) 100%)", duration:10})
+//
 gsap.set('#aiguille',{rotation:150, transformOrigin:"5% 10%"})
 gsap.set(".carPic", {filter: "blur(10px)"},
 )
@@ -15,10 +17,10 @@ tl2.set('.abspath',{fill: "grey"})
 
 //Animation Light/Cadran
 var tl3 = gsap.timeline();
-tl3.to('#light-svg',{fill: "#6392ff",delay: 1})
+tl3.to('#light-svg',{fill: "#0a43ff",delay: 1})
 tl3.to(".carPic", {filter: "blur(0px)"},
 )
-tl3.to('#cadran',{fill: "red"})
+tl3.to('#cadran',{fill: "red",opacity: 0.3})
 tl3.to('#light-svg',{fill: "grey",delay: 4})
 tl3.to('#cadran',{fill: "grey"})
 
