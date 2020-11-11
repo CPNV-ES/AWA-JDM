@@ -16,7 +16,7 @@ new ScrollMagic.Scene({triggerElement: "#car1"})
   .addTo(controller);
 
 // Car 1 content
-new ScrollMagic.Scene({triggerElement: "#car1-content", triggerHook: 1, duration: "200%", offset: 530})
+new ScrollMagic.Scene({triggerElement: "#car1-content", triggerHook: 1, duration: "200%", offset: 680})
 .setClassToggle("#car1-content", "visible")  
 .addTo(controller);
 
@@ -26,7 +26,7 @@ new ScrollMagic.Scene({triggerElement: "#car2"})
   .addTo(controller);
 
 // Car 2 content
-new ScrollMagic.Scene({triggerElement: "#car2-content", triggerHook: 1, duration: "200%", offset: 500})
+new ScrollMagic.Scene({triggerElement: "#car2-content", triggerHook: 1, duration: "200%", offset: 650})
 .setClassToggle("#car2-content", "visible") 
 .addTo(controller);
 
@@ -36,7 +36,7 @@ new ScrollMagic.Scene({triggerElement: "#car3"})
   .addTo(controller);
 
 // Car 3 content
-new ScrollMagic.Scene({triggerElement: "#car3-content", triggerHook: 1, duration: "200%", offset: 560})
+new ScrollMagic.Scene({triggerElement: "#car3-content", triggerHook: 1, duration: "200%", offset: 750})
 .setClassToggle("#car3-content", "visible") 
 .addTo(controller);
 
@@ -46,6 +46,6 @@ new ScrollMagic.Scene({triggerElement: "#car4"})
   .addTo(controller);
 
 // Car 4 content
-new ScrollMagic.Scene({triggerElement: "#car4-content", triggerHook: 1, duration: "200%", offset: 510})
+new ScrollMagic.Scene({triggerElement: "#car4-content", triggerHook: 1, duration: "200%", offset: 650})
 .setClassToggle("#car4-content", "visible") 
 .addTo(controller);
